@@ -1,4 +1,5 @@
 
+
 //Este programa genera Qr de acuerdo a las normas de una empresa
 //Salvedad, el primer Qr no es necesariamente el mismo que el segundo
 
