@@ -1,0 +1,86 @@
+body {
+    background-image: url(ImagenesProyectoNavidad/img/estrellas.png);
+    background-color: #f49755cb;
+    margin: 0;
+}
+
+header {
+display: flex;
+justify-content: space-evenly;
+margin: 0;
+padding: 0;
+background-color: beige;
+} 
+
+header :last-child {            
+background-color: aqua;
+opacity: 0.8;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+
+}
+
+nav p {
+width: 100%;
+margin: 0;
+}
+
+#nudo {
+margin-top: 10%;
+margin-bottom: 10%;
+display: grid;
+grid-template-columns: auto auto auto auto; 
+gap: 40px;  
+}
+
+#nudo .parejas-ordenadas {
+display:flex;
+justify-content: space-evenly;    
+}
+
+footer {    
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+gap: 10px;
+background-color: beige;
+margin: 0;
+padding: 0;
+width: 100%;
+position: fixed;
+bottom: 0;
+left: 0;
+padding: 10px;
+}
+
+.barrita-inferior {
+display: flex;
+font-size: 80%;    
+}
+
+
+    
+.barrita-inferior #logo-footer {
+    width: 20%;
+    padding-left: 0 ;
+}
+
+.enlaces {
+display: flex;
+font-size: 80%;
+align-items: center;
+margin-right: 5%;
+}
+
+.enlaces #boton-unico {
+text-decoration: none;
+color: black;
+border: 1px solid grey;
+padding: 2%;
+width: 35%;
+margin: 0 auto;    
+} 
+
+
+
+
